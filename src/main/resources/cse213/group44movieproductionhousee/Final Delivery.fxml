@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cse213.group44movieproductionhousee.FinalDeliveryController">
+   <children>
+      <Label fx:id="finalEditingandFixingLabel" layoutX="168.0" layoutY="32.0" text="Final Editing and Fixing">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="reviewLabel" layoutX="42.0" layoutY="102.0" text="Review :" />
+      <Label fx:id="VFXLabel" layoutX="42.0" layoutY="144.0" text="VFX :" />
+      <Label fx:id="soundandMusicLabel" layoutX="42.0" layoutY="182.0" text="Sound and Music :" />
+      <TextField fx:id="reviewTextField" layoutX="177.0" layoutY="98.0" promptText="Click to Review" />
+      <TextField fx:id="vfxTextField" layoutX="177.0" layoutY="140.0" promptText="Cordinate VFX" />
+      <TextField fx:id="soundandMusicTextField" layoutX="177.0" layoutY="178.0" prefHeight="26.0" prefWidth="180.0" promptText="Click to check sound and music" />
+      <Button layoutX="38.0" layoutY="339.0" mnemonicParsing="false" onAction="#backButtonOnAction" text="Back" />
+      <Button layoutX="283.0" layoutY="236.0" mnemonicParsing="false" onAction="#submitButtonOnAction" text="Submit Final Delivery" />
+   </children>
+</AnchorPane>
