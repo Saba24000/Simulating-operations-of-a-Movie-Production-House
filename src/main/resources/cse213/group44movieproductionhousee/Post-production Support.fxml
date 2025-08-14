@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cse213.group44movieproductionhousee.PostProductionSupportController">
+   <children>
+      <Label fx:id="postproductionrecheckLabel" layoutX="192.0" layoutY="34.0" text="Post production recheck">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="30.0" layoutY="104.0" mnemonicParsing="false" onAction="#clickButtonOnAction" text="Click to re-record dialogue" />
+      <Button layoutX="30.0" layoutY="155.0" mnemonicParsing="false" onAction="#addtextButtonOnAction" text="Add Text" />
+      <Button layoutX="30.0" layoutY="200.0" mnemonicParsing="false" onAction="#checkDurationButtonOnAction" text="Check Duration" />
+      <Button layoutX="30.0" layoutY="242.0" mnemonicParsing="false" onAction="#speedButtonOnAction" text="Speed" />
+      <Button layoutX="30.0" layoutY="282.0" mnemonicParsing="false" onAction="#checkAudioButtonOnAction" text="Check Audio" />
+      <Button layoutX="20.0" layoutY="360.0" mnemonicParsing="false" onAction="#backButtonOnAction" text="Back" />
+      <Button layoutX="466.0" layoutY="117.0" mnemonicParsing="false" onAction="#checkVolButtonOnAction" text="Check volume" />
+      <Button layoutX="472.0" layoutY="155.0" mnemonicParsing="false" onAction="#voiceeffectButtonOnAction" text="Voice Effect" />
+   </children>
+</AnchorPane>
