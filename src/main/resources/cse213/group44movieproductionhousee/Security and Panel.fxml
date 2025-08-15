@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cse213.group44movieproductionhousee.SecurityAndPanelController">
+   <children>
+      <Label fx:id="securityPanelLabel" layoutX="220.0" layoutY="39.0" text="Security Panel">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="chooseFormatComboBox" layoutX="28.0" layoutY="112.0" prefWidth="150.0" promptText="Choose Format" />
+      <Button layoutX="28.0" layoutY="162.0" mnemonicParsing="false" onAction="#publishingsettingsButtonOnAction" text="Publishing Settings" />
+      <Button layoutX="28.0" layoutY="221.0" mnemonicParsing="false" onAction="#securityandcontrolButtonOnAction" text="Security and control" />
+      <Button layoutX="28.0" layoutY="291.0" mnemonicParsing="false" onAction="#enableButtonOnAction" text="Enable auto watermark with user email" />
+   </children>
+</AnchorPane>
